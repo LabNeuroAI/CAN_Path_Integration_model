@@ -6,7 +6,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-MAIN PAPERS USED FOR REFERENCE:
+MAIN PAPERS (USE THEM FOR REFERENCE):
 
 - Fernandez-Leon, J.A., Uysal, A.K. & Ji, D. (2022) Place cells dynamically refine grid cell activities to reduce error accumulation during path integration in a continuous attractor model. Sci Rep 12, 21443. https://doi.org/10.1038/s41598-022-25863-2
 - Fernandez-Leon, J.A., Sarramone L. (2023) Estimación robusta de posición durante navegación espacial mediante la coordinación de neuronas grilla. Reunión de trabajos en procesamiento de la información y control - RPIC
