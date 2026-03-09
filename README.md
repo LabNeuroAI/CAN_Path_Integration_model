@@ -10,7 +10,7 @@ You should have received a copy of the GNU General Public License along with thi
 MAIN PAPERS (USE THEM FOR REFERENCE):
 
 - Fernandez-Leon, J.A., Uysal, A.K. & Ji, D. (2022) Place cells dynamically refine grid cell activities to reduce error accumulation during path integration in a continuous attractor model. Sci Rep 12, 21443. doi: 10.1038/s41598-022-25863-2
-- Sarramone L*, Fernandez-Leon JA*. (2025) Grid cell modules coordination improves accuracy and reliability for spatial navigation. Cogn Neurodyn 19(1):76. doi: 10.1007/s11571-025-10263-9.
+- Sarramone L* & Fernandez-Leon JA*. (2025) Grid cell modules coordination improves accuracy and reliability for spatial navigation. Cogn Neurodyn 19(1):76. doi: 10.1007/s11571-025-10263-9.
 
 NOTES:
 
