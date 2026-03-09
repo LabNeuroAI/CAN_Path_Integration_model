@@ -6,14 +6,15 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
+-------------------------------------
 MAIN PAPERS (USE THEM FOR REFERENCE):
 
-- Fernandez-Leon, J.A., Uysal, A.K. & Ji, D. (2022) Place cells dynamically refine grid cell activities to reduce error accumulation during path integration in a continuous attractor model. Sci Rep 12, 21443. https://doi.org/10.1038/s41598-022-25863-2
-- Fernandez-Leon, J.A., Sarramone L. (2023) Estimación robusta de posición durante navegación espacial mediante la coordinación de neuronas grilla. Reunión de trabajos en procesamiento de la información y control - RPIC
+- Fernandez-Leon, J.A., Uysal, A.K. & Ji, D. (2022) Place cells dynamically refine grid cell activities to reduce error accumulation during path integration in a continuous attractor model. Sci Rep 12, 21443. doi: 10.1038/s41598-022-25863-2
+- Sarramone L*, Fernandez-Leon JA*. (2025) Grid cell modules coordination improves accuracy and reliability for spatial navigation. Cogn Neurodyn 19(1):76. doi: 10.1007/s11571-025-10263-9. Epub 2025 May 19. PMID: 40401249; PMCID: PMC12089575.
 
 NOTES:
 
-The neuron grid model proposed by Guanella (2005) is used. Everything related to this model is contained in the script "grid.py". At the beginning of the program, an instance of the network is created under the name "grid". At each time step, the activity of the neurons is updated using the "update" method, which takes the velocity in X and Y as parameters. The velocity is encapsulated as a complex number, where the X value forms the real part and Y the imaginary part.
+This code has the grid-cell-based continuous attractor network model for path integration of a simulated rat-like agent. The neuron grid model proposed by Guanella (2005) is used. Everything related to this model is contained in the script "grid.py". At the beginning of the program, an instance of the network is created under the name "grid". At each time step, the activity of the neurons is updated using the "update" method, which takes the velocity in X and Y as parameters. The velocity is encapsulated as a complex number, where the X value forms the real part and Y the imaginary part.
 
 Since this version has no velocity or acceleration sensors, velocity is calculated as the difference between the current position and the position from the previous step. However, any other method of obtaining the robot's velocity is valid, as long as it is decomposed into (X, Y) vectors.
 
